@@ -1,0 +1,90 @@
+:root {
+    --checkout-text-font-color: var(--checkout-text-dark-l);
+    --checkout-text-font-family: Arial, sans-serif;
+    --checkout-text-font-size: 14px;
+    --checkout-checkbox-height: 16px;
+    --checkout-checkbox-offset: 4px;
+    
+    --colorButtonBackground: #00d66f;
+    --colorButtonText: #011e0f;
+    --button-height: 44px;
+    --button-success-background-color: #24b47e;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    color: var(--checkout-text-font-color);
+    font-family: var(--checkout-text-font-family);
+    font-size: var(--checkout-text-font-size);
+    margin: 0;
+    padding: 0;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    background-color: #0A2540;
+}
+
+.payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-input {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid var(--checkout-gray300);
+    border-radius: 4px;
+    margin-bottom: 10px; /* Añadido para espaciado entre campos */
+}
+
+.form-checkbox {
+    margin-top: 8px;
+}
+
+.form-submit-button {
+    width: 100%;
+    height: var(--button-height);
+    background-color: var(--colorButtonBackground);
+    color: var(--colorButtonText);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.form-submit-button:hover {
+    background-color: var(--button-success-background-color);
+}
+
+.card-brand-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card-brand-icon {
+    width: 40px;
+    height: auto;
+    opacity: 0.5;
+    transition: opacity 0.2s ease;
+}
+
+.card-brand-icon.active {
+    opacity: 1;
+}

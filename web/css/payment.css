@@ -1,0 +1,127 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f9fc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+            max-width: 1000px;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .table-container, .form-container {
+            width: 45%;
+        }
+
+        .table-container {
+            margin-right: 40px; /* Añadir margen a la derecha del contenedor de la tabla */
+            max-height: 200px; /* Ajusta la altura máxima de la tabla */
+            overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #d1d1d1;
+        }
+
+        th, td {
+            padding: 4px; /* Ajusta el relleno para reducir la altura de las celdas */
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        #payment-form {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #32325d;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #32325d;
+            font-weight: 500;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #d1d1d1;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        #card-element {
+            border: 1px solid #d1d1d1;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            width: 100%;
+            background-color: #6772e5;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #5469d4;
+        }
+
+        #card-errors {
+            color: #fa755a;
+            margin-top: -10px;
+            margin-bottom: 20px;
+        }
+        button2 {
+            max-width: 130px;
+            width: 30%;
+            background-color: #6772e5;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            height: 30px;
+            position: absolute;
+            top: 30px; 
+            left: 30px; 
+        }
+
+    
+

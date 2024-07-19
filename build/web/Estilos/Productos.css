@@ -1,0 +1,83 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 may 2024, 13:58:46
+    Author     : LENOVO
+*/
+
+/* Estilos de productos */
+#productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Alinea los productos a la izquierda, derecha y centro */
+    max-width: 1200px; /* Ancho máximo del contenedor de productos */
+    margin: 0 auto; /* Centra el contenedor de productos horizontalmente */
+}
+
+.producto {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0; /* Espacio entre cada fila de productos */
+    width: calc(33.33% - 20px); /* Calcula el ancho para mostrar tres productos en una fila */
+    text-align: center;
+    background-color: #f9f9f9;
+    box-sizing: border-box; /* Asegura que el padding no aumente el tamaño total del producto */
+}
+
+.producto:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+.producto h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd; /* Línea de separación bajo el título */
+    padding-bottom: 5px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.producto p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd; /* Línea de separación bajo la descripción */
+    padding-bottom: 5px;
+}
+
+.producto .precio {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd; /* Línea de separación bajo el precio */
+    padding-bottom: 5px;
+}
+
+.producto button {
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.producto .agregar-carrito-btn {
+    background-color: #28a745;
+    color: white;
+    margin-bottom: 10px; /* Espacio vertical entre los botones */
+}
+
+.producto .comprar-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.producto .agregar-carrito-btn + .comprar-btn {
+    margin-top: 10px; /* Espacio entre los dos botones */
+}

@@ -1,0 +1,34 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 jun. 2024, 02:03:51
+    Author     : luna3
+*/
+
+/* Estilos para el cuadro del perfil */
+.perfil-container {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco transparente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); /* Sombra */
+}
+
+.perfil-info {
+    padding: 20px; /* Espaciado interno */
+}
+
+.perfil-info h2 {
+    margin-top: 0;
+    font-size: 24px; /* Tamaño del título */
+    color: #333; /* Color del texto */
+}
+
+.perfil-info p {
+    margin-bottom: 10px; /* Margen inferior */
+    font-size: 16px; /* Tamaño del texto */
+    color: #555; /* Color del texto */
+}

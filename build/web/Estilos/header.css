@@ -1,0 +1,118 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 may. 2024, 00:53:59
+    Author     : luna3
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #8c54fa; /* Morado más intenso */
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos a los extremos */
+  align-items: center; /* Centra verticalmente los elementos */
+  height: 100px; /* Establece la altura del encabezado igual a la altura del logo */
+}
+
+.header a {
+  color: #ffffff; /* Color blanco para los enlaces */
+  text-decoration: none;
+  padding: 12px 20px; /* Aumenta el espacio alrededor de los enlaces */
+  border-radius: 4px;
+}
+
+.header a:hover {
+  background-color: #503b66; /* Color más oscuro al pasar el cursor */
+}
+
+.header a.active {
+  background-color: #2a1e3e; /* Color de fondo para el botón activo */
+}
+
+.header a.home {
+  background-color: #8c54fa; /* Color del botón Home */
+}
+
+.header a.home:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Sombra al pasar el cursor */
+}
+
+.header-right {
+  display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    flex-direction: column; /* Apila los elementos en dispositivos móviles */
+    align-items: stretch; /* Estira los elementos a lo largo de la columna */
+    padding: 10px; /* Reduce el espacio alrededor del encabezado en dispositivos móviles */
+  }
+
+  .header a {
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+  }
+}
+
+.search-container {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center; /* Centra horizontalmente los elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+.search-container input[type="text"] {
+  width: 400px; /* Ancho mayor para la barra de búsqueda */
+  padding: 12px; /* Espacio alrededor del texto dentro del input */
+  border: none;
+  border-radius: 4px;
+}
+
+.search-container button {
+  padding: 12px;
+  background: transparent; /* Botón transparente */
+  border: none;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  transition: box-shadow 0.3s; /* Agrega una transición a la sombra */
+  margin-right: 10px; /* Espacio entre los botones */
+}
+
+.search-container button:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Sombra al pasar el cursor */
+}
+
+.search-container button img {
+  width: 30px; /* Establece el mismo ancho que los otros iconos */
+  height: 30px; /* Establece la misma altura que los otros iconos */
+}
+
+/* Estilos para los íconos */
+.header-right a i {
+  font-size: 20px;
+  justify-content: flex-end; /* Alinea los botones a la derecha en dispositivos móviles */
+}
+
+.header-right a img {
+  width: 30px; /* Establece el mismo ancho para todos los iconos */
+  height: 30px; /* Establece la misma altura para todos los iconos */
+}
+
+.header-right .icono,
+.header-right button img {
+  width: 30px !important; /* Establece el mismo ancho para todos los iconos */
+  height: 30px !important; /* Establece la misma altura para todos los iconos */
+}

@@ -1,0 +1,152 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 may. 2024, 17:01:55
+    Author     : luna3
+*/
+﻿
+
+* {
+    font-family: 'Lato', sans-serif;
+
+    font-size: 13px; /* Ajusta el tamaño de fuente global */
+}
+
+
+body{
+background-image: url("../Images/back.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center; background-attachment: fixed;
+}
+.box{
+
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 90vh;
+}
+.container{
+width: 350px;
+display: flex;
+flex-direction: column;
+padding: 0 15px 15px;
+}
+
+span{
+color: #fff;
+
+font-size: 25px;
+display: flex;
+justify-content: center; padding: 10px 0 15px 0;
+}
+
+header {
+    color: #fff;
+    font-size: 36px; /* Ajusta el tamaño de fuente para el encabezado */
+    display: flex;
+    justify-content: center;
+    padding: 0 0 15px 0;
+}
+
+
+
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%; /* Ajusta el ancho del contenedor al 100% */
+}
+
+
+
+.input-field .input {
+    height: 40px; /* Ajusta la altura del cuadro de entrada */
+    width: 87%; /* Ajusta el ancho del cuadro de entrada al 100% */
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #fff; /* Cambia el color del texto a negro */
+    padding: 0 0 0 42px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 17px;
+}
+
+.input-field .input::placeholder {
+    color: #fff; /* Cambia el color del texto de marcador de posición a negro */
+}
+
+
+i{
+position: relative;
+top: -31px;
+left: 17px;
+color: #fff;
+}
+
+::-webkit-input-placeholder{
+color: #fff;
+}
+
+/*.submit {
+    border: none;
+    border-radius: 30px;  Ajusta el radio del borde del botón 
+    font-size: 18px;  Reducir el tamaño de la fuente 
+    height: 45px;  Ajusta la altura del botón 
+    width: 90%;  Ajusta el ancho del botón al 90% 
+    background: rgba(52, 152, 219, 0.5);  Color de fondo con transparencia 
+    color: #fff;  Cambia el color del texto a blanco 
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;  Agrega efectos de transición 
+    display: block;  Hacer que el botón se muestre como un bloque 
+    margin: 0 auto;  Centrar el botón horizontalmente 
+}
+
+.submit:hover {
+    background: rgba(41, 128, 185, 0.5);  Cambia el color de fondo al pasar el ratón 
+}*/
+.submit {
+    border: none;
+    border-radius: 30px; /* Ajusta el radio del borde del botón */
+    font-size: 18px; /* Reducir el tamaño de la fuente */
+    height: 45px; /* Ajusta la altura del botón */
+    width: 90%; /* Ajusta el ancho del botón al 90% */
+    background: rgba(155, 89, 182, 0.7); /* Morado más vivo con transparencia */
+    color: #fff; /* Cambia el color del texto a blanco */
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s; /* Agrega efectos de transición */
+    display: block; /* Hacer que el botón se muestre como un bloque */
+    margin: 0 auto; /* Centrar el botón horizontalmente */
+}
+
+.submit:hover {
+    background: rgba(123, 63, 152, 0.7); /* Cambia el color de fondo al pasar el ratón */
+}
+
+
+
+.bottom{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-size: 16px;
+color: #fff;
+margin-top: 10px;
+}
+.left{
+display: flex;
+}
+label a{
+color: #fff;
+text-decoration: none;
+}
+
+/*me olvide del captcha xdxdxdxd*/
+.g-recaptcha {
+    margin: 0 auto; /* Centra el reCAPTCHA horizontalmente */
+    display: block; /* Hace que el elemento se muestre como un bloque */
+    text-align: center; /* Alinea el contenido del reCAPTCHA al centro */
+}

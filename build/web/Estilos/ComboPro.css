@@ -1,0 +1,41 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2 jun 2024, 10:29:14
+    Author     : LENOVO
+*/
+
+/* Estilos para el combobox */
+.styled-select {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #000; /* Color del texto */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='#000' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+}
+
+.styled-select select {
+    display: none;
+}
+
+/* Estilos para las opciones del combobox */
+.styled-select option {
+    background-color: #fff;
+    color: #000; /* Color del texto */
+}
+
+/* Estilo al pasar el cursor sobre las opciones */
+.styled-select option:hover {
+    background-color: #f4f4f4;
+}
