@@ -1,3 +1,5 @@
+<h1><br>Sistema Ecommerce para minimarket </h1></br>
+<br>Desarrolle este con apoyo de apis como la de localizacion de google y stripe para el ecommerce de los pagos procedere a explicarte rapidamente como que funciona mi codigo si tines alguna duda no dudes en contactarme a mi correo o linkedin y encantado te respondere</br>
 1.-
 ![image](https://github.com/user-attachments/assets/22469ede-0ab3-4f79-bdcd-507cc3332732)
 2.-
@@ -7,7 +9,7 @@
 4.-
 ![image](https://github.com/user-attachments/assets/4dcf272d-71ca-4f54-839e-8286496c99f2)
 5.-
-![image](https://github.com/user-attachments/assets/4922144b-39aa-478f-934b-c6dd7742af97)
+![image](https://github.com/user-attachments/assets/82206f8a-a879-4eed-a9ce-378d640f961a)
 6.-
 ![image](https://github.com/user-attachments/assets/d1b66960-fa15-4e24-96ca-82057dff75a7)
 7.-
