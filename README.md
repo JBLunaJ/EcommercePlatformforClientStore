@@ -1,5 +1,5 @@
-<h1><br>Sistema Ecommerce para minimarket </h1></br>
-<br>Desarrolle este con apoyo de apis como la de localizacion de google y stripe para el ecommerce de los pagos procedere a explicarte rapidamente como que funciona mi codigo si tines alguna duda no dudes en contactarme a mi correo o linkedin y encantado te respondere</br>
+<h1>Sistema Ecommerce para minimarket </h1>
+Desarrolle este con apoyo de apis como la de localizacion de google y stripe para el ecommerce de los pagos procedere a explicarte rapidamente como que funciona mi codigo si tines alguna duda no dudes en contactarme a mi correo o linkedin y encantado te respondere
 1.-
 ![image](https://github.com/user-attachments/assets/22469ede-0ab3-4f79-bdcd-507cc3332732)
 2.-
